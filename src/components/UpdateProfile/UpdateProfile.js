@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form"
 import toast from "react-hot-toast"
 import { useNavigate } from "react-router-dom"
 import auth from "../firebase.init"
-import "./UpdateProfile.css";
+import "./UpdateProfile.css"
 
 const UpdateProfile = () => {
   const [authUser] = useAuthState(auth);
