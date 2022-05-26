@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { Button, Form } from "react-bootstrap"
-import { useAuthState, useUpdateProfile } from "react-firebase-hooks/auth";
+import { useAuthState, useUpdateProfile } from "react-firebase-hooks/auth"
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
