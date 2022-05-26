@@ -12,7 +12,7 @@ const UpdateProfile = () => {
   console.log(authUser)
   const [updateProfile] = useUpdateProfile(auth)
   const [user, setUser] = useState({})
-  console.log(user);
+  console.log(user)
 
   useEffect(() => {
     fetch(`https://manufacturer-xpart.herokuapp.com/user/${authUser?.email}`, {
