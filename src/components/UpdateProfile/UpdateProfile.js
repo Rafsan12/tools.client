@@ -8,8 +8,8 @@ import auth from "../firebase.init"
 import "./UpdateProfile.css"
 
 const UpdateProfile = () => {
-  const [authUser] = useAuthState(auth);
-  console.log(authUser);
+  const [authUser] = useAuthState(auth)
+  console.log(authUser)
   const [updateProfile] = useUpdateProfile(auth);
   const [user, setUser] = useState({});
   console.log(user);
