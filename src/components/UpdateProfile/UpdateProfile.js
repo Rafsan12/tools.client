@@ -11,7 +11,7 @@ const UpdateProfile = () => {
   const [authUser] = useAuthState(auth)
   console.log(authUser)
   const [updateProfile] = useUpdateProfile(auth)
-  const [user, setUser] = useState({});
+  const [user, setUser] = useState({})
   console.log(user);
 
   useEffect(() => {
