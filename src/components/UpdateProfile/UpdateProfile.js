@@ -27,7 +27,7 @@ const UpdateProfile = () => {
       .then((json) => {
         setUser(json);
       })
-  }, [authUser?.email]);
+  }, [authUser?.email])
 
   const {
     register,
